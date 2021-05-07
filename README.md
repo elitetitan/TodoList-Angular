@@ -1,27 +1,13 @@
 # TodoList
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
+![image](https://user-images.githubusercontent.com/28217583/117504740-925b0980-afa0-11eb-87f8-84b42e227a0c.png)
 
-## Development server
+A very basic single page web app in angular. You can add items using the input field and clicking the Add Todo button or hitting enter key. Clicking on any individual item in the list will strikethrough the text and mark it as done. You can also remove the item from the list by clicking on the remove button. 
+
+## Running the app
+
+You must have node.js and angular cli installed. The app has been developed using the following versions: Node.js -> 15.4.0 Angular cli -> 11.0.7
+Download the files and head to the root folder(the one containing the files) in command line.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
